@@ -11,3 +11,5 @@ Kaggle Competation:
 https://www.kaggle.com/competitions/cifar-10/overview
 ![image](https://github.com/user-attachments/assets/0ae1dc7d-63ec-4814-97af-cee2583afb22)
 
+
+- for *W/O RESNET Application* : https://github.com/cagricivici/cifar10/tree/main/cifar10_wo_resnet
