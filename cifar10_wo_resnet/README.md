@@ -3,7 +3,8 @@ To see the results what if i dont use ResNet advantages. Without having well-run
 
 # Results:
 Here it is for wo data augmentation:
-Takeaways: 
+
+- Takeaways: 
 * accuracies are always increasing trend which is good.
 * losses are decreasing constantly until 30th of epochs. After that, they are aparting from each other. Until the early stop, val_loss suffers to increasing more. The result would be that the dataset in validation and train are not various. So it makes the model defenseless for validation data or test data. Here we can see that the line in val_loss are not constanly decreasing.
 * But scores are quite good when we consider that only cnn model is applied, nothing else is done here. By the time and effort point of view, it could be quite acceptable.
