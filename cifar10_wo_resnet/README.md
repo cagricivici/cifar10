@@ -17,3 +17,8 @@ To see the results what if i dont use ResNet advantages. Without having well-run
 * I noticed that if I directly use the model that works for no data augmentation, it seems to be weak. That's why, I want the gradient to be less vanished by having small dropouts.
 * I cut out the 64 dense neurons from the FC layer. The reason why is that i want the model not to memorise the input that leads the model overfitting. I am thinking that less deep in FC gives the model the change not to be overfitted easily.
 * I did not change the depth of CONV layer because it is where the image are being introduced by capturing features from each image.
+
+* ![image](https://github.com/user-attachments/assets/d6095496-9e14-4b17-953b-143dfa86b7ff)
+
+## Summary:
+When i augment the input data with small changes in model, i got much more better results which is even more close to resnet model's results. 
